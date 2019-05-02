@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD002 MD041 -->
 
-En este ejercicio, ampliará la aplicación del ejercicio anterior para admitir la autenticación con Azure AD. Esto es necesario para obtener el token de acceso de OAuth necesario para llamar a Microsoft Graph. En este paso, integrará la biblioteca reQuests [-OAuthlib](https://requests-oauthlib.readthedocs.io/en/latest/) en la aplicación.
+En este ejercicio, ampliará la aplicación del ejercicio anterior para admitir la autenticación con Azure AD. Esto es necesario para obtener el token de acceso de OAuth necesario para llamar a Microsoft Graph. En este paso, integrará la biblioteca requests [-OAuthlib](https://requests-oauthlib.readthedocs.io/en/latest/) en la aplicación.
 
 Cree un nuevo archivo en la raíz del proyecto denominado `oauth_settings.yml`y agregue el contenido siguiente.
 
@@ -249,7 +249,7 @@ Actualice el vínculo **Cerrar sesión** en `./tutorial/templates/tutorial/layou
 <a href="{% url 'signout' %}" class="dropdown-item">Sign Out</a>
 ```
 
-ReInicie el servidor y pase por el proceso de inicio de sesión. Deberás volver a la Página principal, pero la interfaz de usuario debe cambiar para indicar que has iniciado sesión.
+Reinicie el servidor y pase por el proceso de inicio de sesión. Deberás volver a la Página principal, pero la interfaz de usuario debe cambiar para indicar que has iniciado sesión.
 
 ![Una captura de pantalla de la Página principal después de iniciar sesión](./images/add-aad-auth-01.png)
 

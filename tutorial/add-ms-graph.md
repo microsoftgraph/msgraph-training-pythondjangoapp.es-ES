@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD002 MD041 -->
 
-En este ejercicio, incorporará Microsoft Graph a la aplicación. Para esta aplicación, usará la biblioteca reQuests [-OAuthlib](https://requests-oauthlib.readthedocs.io/en/latest/) para realizar llamadas a Microsoft Graph.
+En este ejercicio, incorporará Microsoft Graph a la aplicación. Para esta aplicación, usará la biblioteca requests [-OAuthlib](https://requests-oauthlib.readthedocs.io/en/latest/) para realizar llamadas a Microsoft Graph.
 
 ## <a name="get-calendar-events-from-outlook"></a>Obtener eventos de calendario de Outlook
 
