@@ -29,7 +29,7 @@ Tenga en cuenta lo que está haciendo este código.
 - El `$select` parámetro limita los campos devueltos para cada evento a solo aquellos que la vista usará realmente.
 - El `$orderby` parámetro ordena los resultados por la fecha y hora en que se crearon, con el elemento más reciente en primer lugar.
 
-Ahora, cree una vista de calendario. En primer lugar `from tutorial.graph_helper import get_user` , cambie la línea por lo siguiente.
+Ahora, cree una vista de calendario. En `./tutorial/views.py`, primero cambie la `from tutorial.graph_helper import get_user` línea por lo siguiente.
 
 ```python
 from tutorial.graph_helper import get_user, get_calendar_events
