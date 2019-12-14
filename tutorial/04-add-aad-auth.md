@@ -1,17 +1,17 @@
 <!-- markdownlint-disable MD002 MD041 -->
 
-En este ejercicio, ampliará la aplicación del ejercicio anterior para admitir la autenticación con Azure AD. Esto es necesario para obtener el token de acceso de OAuth necesario para llamar a Microsoft Graph. En este paso, integrará la biblioteca requests [-OAuthlib](https://requests-oauthlib.readthedocs.io/en/latest/) en la aplicación.
+En este ejercicio, ampliará la aplicación del ejercicio anterior para admitir la autenticación con Azure AD. Esto es necesario para obtener el token de acceso de OAuth necesario para llamar a Microsoft Graph. En este paso, integrará la biblioteca [requests-OAuthlib](https://requests-oauthlib.readthedocs.io/en/latest/) en la aplicación.
 
 Cree un nuevo archivo en la raíz del proyecto denominado `oauth_settings.yml`y agregue el contenido siguiente.
 
 ```text
-app_id: YOUR_APP_ID_HERE
-app_secret: YOUR_APP_PASSWORD_HERE
-redirect: http://localhost:8000/tutorial/callback
-scopes: openid profile offline_access user.read calendars.read
-authority: https://login.microsoftonline.com/common
-authorize_endpoint: /oauth2/v2.0/authorize
-token_endpoint: /oauth2/v2.0/token
+app_id: "YOUR_APP_ID_HERE"
+app_secret: "YOUR_APP_PASSWORD_HERE"
+redirect: "http://localhost:8000/tutorial/callback"
+scopes: "openid profile offline_access user.read calendars.read"
+authority: "https://login.microsoftonline.com/common"
+authorize_endpoint: "/oauth2/v2.0/authorize"
+token_endpoint: "/oauth2/v2.0/token"
 ```
 
 Reemplace `YOUR_APP_ID_HERE` por el identificador de la aplicación del portal de registro de la `YOUR_APP_SECRET_HERE` aplicación y reemplace por la contraseña que ha generado.
