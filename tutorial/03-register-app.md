@@ -12,7 +12,7 @@ En este ejercicio, creará un nuevo registro de aplicaciones Web de Azure AD con
 
     - Establezca **Nombre** como `Python Graph Tutorial`.
     - Establezca **Tipos de cuenta admitidos** en **Cuentas en cualquier directorio de organización y cuentas personales de Microsoft**.
-    - En **URI de redirección**, establezca la primera lista desplegable en `Web` y establezca el valor `http://localhost:8000/tutorial/callback`.
+    - En **URI de redirección**, establezca la primera lista desplegable en `Web` y establezca el valor `http://localhost:8000/callback`.
 
     ![Captura de pantalla de la página registrar una aplicación](./images/aad-register-an-app.png)
 

@@ -8,19 +8,11 @@ En este laboratorio, creará una aplicación Web de Python Django con el punto d
 
 - [Tutorial de Python Microsoft Graph](https://docs.microsoft.com/graph/training/python-tutorial)
 
-## <a name="demos"></a>Demostraciones
-
-El [](./Demos) directorio demos de este repositorio contiene copias del proyecto que corresponden a la realización de secciones individuales del tutorial. Si solo quiere demostrar una sección concreta del tutorial, puede comenzar con la versión de la sección anterior.
-
-- [01-Create-App](Demos/01-create-app): [creación de una aplicación Web de Python Django](https://docs.microsoft.com/graph/training/python-tutorial?tutorial-step=1)
-- [02-Add-AAD-auth](Demos/02-add-aad-auth): [adición de autenticación de Azure ad](https://docs.microsoft.com/graph/training/python-tutorial?tutorial-step=3) completada
-- [03-Add-MSGraph](Demos/03-add-msgraph): [obtener datos de calendario](https://docs.microsoft.com/graph/training/python-tutorial?tutorial-step=4) completados
-
 ## <a name="completed-sample"></a>Ejemplo completado
 
 Si solo quiere el ejemplo completado que se genera siguiendo este laboratorio, puede encontrarlo aquí.
 
-- [Proyecto completado](Demos/03-add-msgraph)
+- [Proyecto completado](demo)
 
 ## <a name="disclaimer"></a>Aviso de declinación de responsabilidades
 
