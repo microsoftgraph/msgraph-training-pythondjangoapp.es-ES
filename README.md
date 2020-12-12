@@ -6,7 +6,7 @@ Este módulo le presentará cómo trabajar con Microsoft Graph para obtener acce
 
 En este laboratorio, creará una aplicación Web de Python Django con el punto de conexión de autenticación de Azure AD v2 para obtener acceso a los datos de Office 365 con Microsoft Graph.
 
-- [Tutorial de Python Microsoft Graph](https://docs.microsoft.com/graph/training/python-tutorial)
+- [Tutorial de Python Microsoft Graph](https://docs.microsoft.com/graph/tutorials/python)
 
 ## <a name="completed-sample"></a>Ejemplo completado
 
